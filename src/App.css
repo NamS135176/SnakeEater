@@ -1,0 +1,38 @@
+.Page{
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-ground{
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: repeat(10, 20px);
+  grid-template-rows: repeat(10, 20px);
+}
+
+.dot{
+  width: 20px;
+  height: 20px;
+  background-color: aqua;
+}
+
+.snake-head{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+
+.point{
+  width: 20px;
+  height: 20px;
+  background-color: greenyellow;
+}
+
+.dot-active{
+   width: 20px;
+  height: 20px;
+  background-color: blueviolet;
+}
